@@ -14,8 +14,8 @@ int main()
    int a , b ; 
    cin>>a>>b ; 
    cout<<gcd(a ,b)<<endl; 
-  int lcd = a*b / gcd(a,b) ; 
-  cout<<lcd<<endl;
+  int LCM = a*b / gcd(a,b) ; 
+  cout<<LCM<<endl;
   // either you can use inbuilt funtion __gcd()
   cout<<"OUTPUT of using GCD inbuilt funtion __gcd() ----"<<__gcd(a,b) ;
 
