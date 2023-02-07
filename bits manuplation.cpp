@@ -39,6 +39,19 @@ int main()
   }
  }
  cout<<ct<<endl;
+ //there is another way of solve this 
+ 
+int numberofbits(int a)
+{
+    int cnt = 0 ; 
+    while(a)
+    {
+       
+        a = a&(a-1) ;//this is the term we use this iteration will give us the bits number;
+        cnt++;
+    }
+    return cnt ;
+}
  cout<<__builtin_popcount(a)<<endl;
 
 
