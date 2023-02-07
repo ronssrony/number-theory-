@@ -15,7 +15,7 @@ int main()
     int temp = ans;
     int setbit = 0 ;
     int pos = 0 ;
-    while(setbit!=1)
+    while(!setbit)
     {
         setbit = ans&1 ;
         
