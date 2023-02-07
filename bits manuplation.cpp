@@ -39,7 +39,7 @@ int main()
   }
  }
  cout<<ct<<endl;
- //there is another way of solve this 
+ //there is another way of solve this............. 
  
 int numberofbits(int a)
 {
@@ -54,7 +54,20 @@ int numberofbits(int a)
 }
  cout<<__builtin_popcount(a)<<endl;
 
-
+//subset with bit manupulation.................
+  int arr[] = {1,2,3} ;
+    for(int i = 0;  i<(1<<3) ; i++  )
+    {
+        for(int j = 0 ; j<3 ; j++)
+        {
+            if(i&(1<<j))
+            {
+                cout<<arr[j]<<" " ;
+            }
+        }
+        cout<<endl;
+    }
+ //.......................................
 
         
         
